@@ -45,6 +45,13 @@
 					<li><a href="#flexsystem">Flex System</a></li>
 					<li><a href="#table">Table</a></li>
 					<li><a href="#figure">Figure</a></li>
+					<li><a href="#forms">Forms</a></li>
+					<ul>
+						<li><a href="#inputs">Inputs</a></li>
+						<li><a href="#labels">Labels</a></li>
+						<li><a href="#controls">Controls</a></li>
+						<li><a href="#buttons">Buttons</a></li>
+					</ul>
 				</ul>
 			</nav>
 		</div>
@@ -270,9 +277,131 @@
 		
 	</div>
 
+	<div class="container" id="forms">
+		<h2>Forms</h2>
 
 
+		<h3>Inputs</h3>
+
+		<div class="card soft">
+			
+			<h3>Form Control</h3>
+			<form>
+				<div class="form-control">
+					<label class="form-label">Email</label>
+					<input type="text" placeholder="abdofl@gmail.com" class="form-input">
+				</div>
+
+				<div class="form-control">
+					<label class="form-label">Phone Number</label>
+					<input type="number" placeholder="000-0000-0000" class="form-input">
+				</div>
+
+				<div class="form-control">
+					<label class="form-label">Adress</label>
+					<input type="password" placeholder="" class="form-input">
+				</div>
+
+
+				<div class="form-control display-flex flex-align-center">
+					<div class="flex-none">
+						<label class="form-label">First Name</label>
+					</div>
+					<div class="flex-stretch">
+						<input type="search" placeholder="" class="form-input flex-stretch">
+					</div>
+					<div class="flex-none">
+						<label class="form-label">Last Name</label>
+					</div>
+					<div class="flex-stretch">
+						<input type="search" placeholder="" class="form-input flex-stretch">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+	<div class="container" id="Buttons">
+		<h2>Buttons</h2>
+		<div class="card soft">
+
+			<h3>Form Buttons</h3>
+
+				<div class="form-control">
+					<button type="button" class="form-button">
+							Add To Cart
+					</button>
+				</div>
+
+				<div class="form-control">
+					<button type="button" class="form-button-etc">
+							Next
+					</button>
+				</div>
+		</div>
+
+
+		<h3>Hotdog</h3>
+		<div class="card soft">
+			<div class="form-control">
+				<form>
+					<input type="search" class="hotdog" placeholder="Search">
+				</form>
+			</div>
+		</div>
+
+		<h3 id="select">Select</h3>
+		<div class="card soft">
+			<div class="form-select">
+				<select>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+				</select>
+			</div>
+			<div class="display-flex">
+				<div class="flex-stretch"></div>
+				<div class="flex-none"></div>
+				<select>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+				</select>
+			</div>
+		</div>
+		
+
+		<h2 id="checkboxes">Check Boxes</h2>
+		<div class="card soft">
+			<label>Label <input type="checkbox" id="input-1"></label>
+			<label for="input-1">Label</label>
+
+			<h3>Heart Checkbox</h3>
+			<div class="favorite">
+				<input type="checkbox" id="heart-example" class="hidden">
+				<label for="heart-example">&hearts;</label>
+			</div>
+
+			<h3>Toggle</h3>
+			<div class="toggle">
+				<input type="checkbox" id="toggle-1" class="hidden">
+				<label for="toggle-1"></label>
+			</div>
+
+			<div class="display-flex flex-align-center">
+			<div class="flex-stretch">	
+				<label for="toggle-2" class="form-label">Display Warning?</label>
+			</div>
+			<div class="flex-none">
+				<div class="toggle" style="font-size: 2em">
+					<input type="checkbox" id="toggle-2" class="hidden">
+					<label for="toggle-2"></label>
+				</div>
+			</div>			
+		</div>
+		</div>
 
 </body>
 </html>
-`
